@@ -34,14 +34,23 @@ Console.WriteLine("Por favor ingrese le segundo numero");
 var segundoNumeroString = Console.ReadLine();
 var segundoNumeroInt = int.Parse(segundoNumeroString!);
 
-var resultSuma = primeroNumeroInt + segundoNumeroInt;
+//var resultSuma = primeroNumeroInt + segundoNumeroInt;
+var resultSuma = primeroNumeroInt;
+resultSuma += segundoNumeroInt;
 Console.WriteLine("El resultado de la suma es: " + resultSuma);
 
-var resultResta = primeroNumeroInt - segundoNumeroInt;
-Console.WriteLine("El resultado de la resta es: " + resultResta);
+//var resultResta = primeroNumeroInt - segundoNumeroInt;
+var resultadoResta = primeroNumeroInt;
+resultadoResta += segundoNumeroInt;
+Console.WriteLine("El resultado de la resta es: " + resultadoResta);
 
-var resultMultiplicacion = primeroNumeroInt * segundoNumeroInt;
+//var resultMultiplicacion = primeroNumeroInt * segundoNumeroInt;
+var resultMultiplicacion = primeroNumeroInt;
+resultMultiplicacion *= segundoNumeroInt;
 Console.WriteLine("El resultado de la multiplicacion es: " + resultMultiplicacion);
 
-var resultDivision = primeroNumeroInt / segundoNumeroInt;
-Console.WriteLine("El resultado de la Divison es: " + resultDivision);
+//var resultDivision = primeroNumeroInt / segundoNumeroInt;
+var resultadoDivision = primeroNumeroInt;
+resultadoDivision /= segundoNumeroInt;
+Console.WriteLine("El resultado de la Divison es: " + resultadoDivision);
+
